@@ -220,14 +220,24 @@ ul {
 .mobile-menu-toggle {
     display: none;
     /* Hidden on desktop */
-    background: none;
+    -webkit-appearance: none;
+    /* Remove iOS/Android default styles */
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
     border: none;
+    border-radius: 0;
+    /* Prevent default rounding */
+    box-shadow: none;
+    outline: none;
     cursor: pointer;
     padding: 0;
     width: 30px;
     height: 24px;
     flex-direction: column;
     justify-content: space-between;
+    -webkit-tap-highlight-color: transparent;
+    /* Remove blue tap box on Android/iOS */
 }
 
 .mobile-menu-toggle span {
