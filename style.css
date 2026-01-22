@@ -180,6 +180,10 @@ ul {
     gap: 32px;
     align-items: center;
     height: 100%;
+    list-style: none;
+    /* Ensure no bullets */
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link {
