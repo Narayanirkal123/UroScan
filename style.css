@@ -815,7 +815,8 @@ ul {
     }
 
     .mobile-menu-toggle {
-        display: block;
+        display: none;
+        /* Hidden - no mobile menu functionality */
     }
 
     /* Center feature cards on mobile */
@@ -872,3 +873,4 @@ ul {
     }
 
 }
+
