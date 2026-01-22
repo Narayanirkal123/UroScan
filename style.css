@@ -876,6 +876,22 @@ ul {
         text-align: center;
     }
 
+    /* Allow subheading to wrap on mobile */
+    .hero-subheading {
+        white-space: normal;
+        font-size: 1.1rem;
+    }
+
+    /* Remove image margin on mobile */
+    .hero-image img {
+        margin-left: 0;
+    }
+
+    /* Adjust description width for mobile */
+    .hero-description {
+        max-width: 100%;
+    }
+
     .hero-buttons {
         justify-content: center;
     }
