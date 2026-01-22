@@ -773,6 +773,9 @@ ul {
     .company-logo-img {
         height: 36px;
         /* Smaller on mobile */
+        max-height: 36px;
+        max-width: 150px;
+        /* Tighter constraint on mobile */
     }
 
     .navbar-center {
@@ -785,6 +788,9 @@ ul {
     .nav-center-logo {
         height: 36px;
         /* Smaller on mobile */
+        max-height: 36px;
+        max-width: 150px;
+        /* Tighter constraint on mobile */
     }
 
     .container {
@@ -864,4 +870,5 @@ ul {
         align-items: flex-start;
         gap: 4px;
     }
+
 }
