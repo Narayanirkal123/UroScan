@@ -815,7 +815,7 @@ ul {
     }
 
     .mobile-menu-toggle {
-        display: none;
+        display: none !important;
         /* Hidden - no mobile menu functionality */
     }
 
@@ -873,5 +873,6 @@ ul {
     }
 
 }
+
 
 
